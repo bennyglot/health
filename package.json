@@ -1,0 +1,13 @@
+{
+  "name": "patient-heart-rate-service",
+  "private": true,
+  "workspaces": [
+    "patient-service",
+    "heart-rate-service",
+    "analytics-service",
+    "frontend"
+  ],
+  "scripts": {
+    "build:all": "npm run build -w patient-service -w heart-rate-service -w analytics-service -w frontend"
+  }
+}

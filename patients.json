@@ -1,0 +1,48 @@
+{
+  "patients": [
+    {
+      "id": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "name": "Alice Johnson",
+      "age": 45,
+      "gender": "Female"
+    },
+    {
+      "id": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+      "name": "Bob Smith",
+      "age": 62,
+      "gender": "Male"
+    }
+  ],
+  "heartRateReadings": [
+    {
+      "patientId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "heartRate": 72,
+      "timestamp": "2024-01-15T08:00:00Z"
+    },
+    {
+      "patientId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "heartRate": 118,
+      "timestamp": "2024-01-15T12:00:00Z"
+    },
+    {
+      "patientId": "a1b2c3d4-e5f6-7890-abcd-ef1234567890",
+      "heartRate": 68,
+      "timestamp": "2024-01-15T20:00:00Z"
+    },
+    {
+      "patientId": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+      "heartRate": 95,
+      "timestamp": "2024-01-15T08:30:00Z"
+    },
+    {
+      "patientId": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+      "heartRate": 130,
+      "timestamp": "2024-01-15T14:00:00Z"
+    },
+    {
+      "patientId": "b2c3d4e5-f6a7-8901-bcde-f12345678901",
+      "heartRate": 88,
+      "timestamp": "2024-01-15T22:00:00Z"
+    }
+  ]
+}

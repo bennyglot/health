@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: ConfigMap
+metadata:
+  name: medical-config
+  namespace: medical
+data:
+  POSTGRES_DB: medicaldb
+  POSTGRES_HOST: postgres.medical.svc.cluster.local
+  REDIS_HOST: redis.medical.svc.cluster.local
+  NODE_ENV: production
+  PORT: "3000"

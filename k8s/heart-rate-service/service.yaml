@@ -1,0 +1,14 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: heart-rate-service
+  namespace: medical
+  labels:
+    app: heart-rate-service
+    component: backend
+spec:
+  selector:
+    app: heart-rate-service
+  ports:
+    - port: 3000
+      targetPort: 3000
